@@ -3,7 +3,7 @@ import { GithubLogo } from "@/components/icons/logos";
 import { buttonVariants } from "@/ui/button";
 import ExternalLink from "@/ui/external-link";
 import { TypographyH1, TypographyP } from "@/ui/typography";
-import { LinkIcon } from "lucide-react";
+import { LinkIcon, ShieldCheck, UploadIcon } from "lucide-react";
 import Link from "next/link";
 import BetaWarning from "@/components/beta-warning";
 
@@ -32,11 +32,11 @@ export default async function Home() {
               size: "lg",
             })}
           >
-            <LinkIcon
+            <UploadIcon
               size={18}
               className="duration-300 group-hover:rotate-[14deg]"
             />
-            <span>Create a Link</span>
+            <span>Firmar Documento</span>
           </Link>
           <ExternalLink
             href="https://github.com/pheralb/slug"
@@ -46,12 +46,12 @@ export default async function Home() {
               className: "group",
             })}
           >
-            <GithubLogo
+            <ShieldCheck
               height={18}
               className="duration-300
                  group-hover:-rotate-[10deg]"
             />
-            <span>Star on GitHub</span>
+            <span>Validar Certificado</span>
           </ExternalLink>
         </div>
       </section>
