@@ -16,9 +16,9 @@
     "db:generate": "prisma generate",
     "db:migrate": "prisma migrate dev --name init",
     "db:studio": "prisma studio",
-    "db:push": "turso db shell slug < ./prisma/migrations/20240404040238_init/migration.sql",
+    "db:push": "turso db shell firma-online < ./prisma/migrations/20240825204018_init/migration.sql",
     "db:pscale:dump": "pscale database dump databasename databasebranch",
-    "db:turso:dump": "turso db shell slug .dump > dump.sql"
+    "db:turso:dump": "turso db shell firma-online .dump > dump.sql"
   },
   "dependencies": {
     "@auth/core": "0.30.0",

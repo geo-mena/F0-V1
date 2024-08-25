@@ -27,7 +27,7 @@ const Footer = (props: FooterProps) => {
             href="https://create.t3.gg/"
             className="flex items-center space-x-1"
           >
-            <p>Made by Pablo using</p>
+            <p>Made by Geovanni Mena using</p>
             <T3Logo className="h-4 w-4" />
             <ArrowUpRight size={14} />
           </ExternalLink>
